@@ -1,0 +1,15 @@
+subscription_name            = "my-new-subscription"
+billing_scope               = "/providers/Microsoft.Billing/billingAccounts/XXXXXX"
+resource_group_name         = "my-resource-group"
+location                    = "East US"
+vnet_name                   = "my-vnet"
+vm_name                     = "my-vm"
+primary_postgres_server_name = "primary-pgsql"
+replica_postgres_server_name = "replica-pgsql"
+aks_cluster_name            = "my-aks-cluster"
+
+# Passwords should be stored securely, not in plain text
+admin_username              = "adminuser"
+admin_password              = "YourSecurePassword123!"
+postgres_admin_username     = "psqladmin"
+postgres_admin_password     = "YourPostgresPassword123!"
